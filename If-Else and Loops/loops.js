@@ -108,19 +108,76 @@
 //   }
 // }
 
-let a = 10;
-let b = 25;
-let c = 15;
+// let a = 10;
+// let b = 25;
+// let c = 15;
 
-for (i = 20; i >= 0; i--) {
-  if (i % 2 === 0) {
-    console.log(i);
+// for (i = 20; i >= 0; i--) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// let stars = "****";
+
+// for (let i = 4; i >= 1; i--) {
+//   stars = stars.slice(0, -1);
+//   console.log(stars);
+// }
+
+// 23/12/2025==============================================================================
+
+// for (i = 0; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// sum = 0;
+
+// for (i = 1; i <= 10; i++) {
+//   sum = sum + i;
+//   console.log(sum);
+// }
+
+// for (i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+
+// let stars = '';
+
+// for (let i = 0; i < 4; i++) {
+//   stars = stars + '*';
+//   console.log(stars);
+// }
+
+// let password = 'Admin123';
+
+// if (password === '') {
+//   console.log('Enter Password');
+// } else if (password.length === 0 || password.length < 6) {
+//   console.log('Password is too short');
+// }
+// else {
+//   console.log('Valid Password');
+// }
+
+
+// let number = 5;
+
+// if (number % 2 === 0 && number % 3 === 0) {
+//   console.log('Divisible by 2 and 3');
+// } else if (number % 2 === 0) {
+//   console.log('Divisible by 2');
+// } else if (number % 3 === 0) {
+//   console.log('Divisible by 3 ')
+// } else {
+//   console.log('Not Divisible by 2 or 3')
+// }
+
+for (let i = 5; i >= 1; i--) {
+  console.log(i);
+  if (i === 1) {
+    console.log('Go!')
   }
-}
-
-let stars = "****";
-
-for (let i = 4; i >= 1; i--) {
-  stars = stars.slice(0, -1);
-  console.log(stars);
 }
